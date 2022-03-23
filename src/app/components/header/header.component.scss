@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&family=Poppins:ital,wght@0,300;0,400;1,200;1,900&display=swap');
 
 .title-part1{
-    font-family: "Lobster", cursive;
+    font-family: 'Hurricane', cursive;
     color: blue;
-    font-size: 34px;
+    font-size: 40px;
+    font-weight: 700;
 }
+
 .cutom-margin{
     margin-left: 980px;
+}
+
+nav{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }

@@ -1,20 +1,20 @@
 <div class="container m-5">
     <div class="row">
-        <div class="col">
+        <div class="xs-12 col-sm-12 col-md-6">
           <div class="banner-login-image">
               <img src="https://images.pexels.com/photos/5554247/pexels-photo-5554247.jpeg?cs=srgb&dl=pexels-armin-rimoldi-5554247.jpg&fm=jpg" alt="banner-login-image" width="100%" height="auto">
         </div>
         </div>
-        <div class="col-md-5">
+        <div class="xs-12 col-sm-12 col-md-6">
           <!-- {{loginForm.value | json}} -->
           <div class="login-form m-auto">
               <form [formGroup]="loginForm" (ngSubmit)="submitLoginStudent()">
                 <h1 class="text-center">Please Login!</h1>
                  <div class="form-group">
-                     <input type="email" name="email" id="email" class="form-control" placeholder="enter email" formControlName="email">
+                     <input type="email" name="email" id="email" class="form-control" placeholder="enter email" formControlName="email" autocomplete="off">
                  </div>
                  <div class="form-group mt-2">
-                     <input type="password" name="password" id="password" class="form-control" placeholder="enter password" formControlName="password">
+                     <input type="password" name="password" id="password" class="form-control" placeholder="enter password" formControlName="password" autocomplete="off">
                  </div>
                  <div class="form-group mt-2 ">
                     <button type="submit" class="btn btn-primary w-100">Login</button>
